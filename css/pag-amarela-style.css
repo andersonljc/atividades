@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(253, 253, 163, 0.829);
+    margin: 0;
+    color: rgb(192, 163, 0);
+}
+main{
+    max-width: 700px;
+    background-color: rgba(250, 250, 228, 0.774);
+    margin: auto;
+    padding: 20px;
+}
+
+.image-d008{
+    width: 150px;
+    display: inline;
+}
+a{
+    color:rgb(192, 163, 0); 
+    font-weight: bold;
+    font-size: 1.2em;
+}

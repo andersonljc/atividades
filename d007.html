@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/d007-style.css">
+    <title>Desafio 007 - Curso em Vídeo</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav>
+        <ul class="topnav">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li class="right"><a href="#contato"></a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Desafio Imagem flexível</h1>
+        <p>
+            Quando a janela está bem pequena, mostre uma imagem mais estreita, que não ocupe tanto espaço. Porém, quando o usuário aumentar a largura do navegador, você pode substituir a imagem menos ampla por uma maior.
+        </p>
+        
+        <h2>Desafio Imagem flexível</h2>
+        <img class="image-d007" src="imagens/image-d007.PNG" alt="Imagem desafio das imagens"> <hr><hr>       
+        
+        <h2>Minha Resolução</h2>
+        <h3>Imagem flexível</h3>
+
+        <picture>
+            <source srcset="imagens/paisagem-p.png" media="(max-width: 550px)">
+            <source srcset="imagens/paisagem-m.png" media="(max-width: 740px)">
+            <img class="primeiro-android" src="imagens/paisagem-g.png" alt="Paisagem">
+        </picture>
+
+    </main>
+    <footer>
+        <p>
+            Site criado por <strong>Anderso Costa</strong>
+        </p>
+    </footer>
+</body>
+
+</html>
