@@ -130,52 +130,11 @@ li.dropdown {
     columns: 3;
 }
 
-/*
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: var(--cor5);
-}
-
-ul.topnav li {
-    float: left;
-}
-
-ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding: 13px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {
-    background-color: var(--cor3);
-}
-
-ul.topnav li a.active {
-    background-color: var(--cor3);
-}
-
-ul.topnav li.right {
-    float: right;
-}
-
-@media screen and (max-width: 600px) {
-
-    ul.topnav li.right,
-    ul.topnav li {
-        float: none;
-    }
-}*/
 main {
     background-color: var(--cor0);
     max-width: 620px;
     min-width: 400px;
-    margin: 46px auto;
+    margin: 46px auto 109px auto;
     padding: 20px 15px;
     border: 2px solid rgba(0, 0, 0, 0.295);
     border-radius: 10px;
