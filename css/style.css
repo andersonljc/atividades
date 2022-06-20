@@ -120,6 +120,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
     columns: 2;
+    font-size: 0.8em;
 }
 
 main {
