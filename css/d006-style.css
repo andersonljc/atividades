@@ -67,11 +67,13 @@ nav li a:hover {
 
 main {
     max-width: 700px;
+    min-width: 380px;
     background-color: white;
-    margin: 0px auto 24px auto;
-    padding: 15px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px 15px 77px ;
+    margin: 0px auto 20px auto;
+    border: 2px solid rgba(0, 0, 0, 0.295);
 }
 
 .image-d006 {
@@ -109,7 +111,7 @@ table.center p {
 footer {
     background-color: var(--cor4);
     color: var(--cor1);
-    padding: 4px;
+    padding: 5px;
     text-align: center;
     font-size: 0.8em;
 }

@@ -72,8 +72,8 @@ body{
 main{
     max-width: 850px;
     background-color: rgba(0, 0, 0, 0.897);
-    margin: 0px auto 35px auto;
-    padding: 10px;
+    margin: 0px auto 50px auto;
+    padding: 20px 15px 30px ;
     text-align: center;
 }
 a{

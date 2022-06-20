@@ -57,11 +57,13 @@ li a:hover{
 }
 
 main {
+    background-color: white; 
     max-width: 700px;
-    background-color: white;
+    min-width: 380px;
+    padding: 20px 15px 77px ;
     margin: 0px auto 20px auto;
-    padding: 15px;
     border-radius: 0px 0px 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.295);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 .image-d001 {
