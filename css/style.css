@@ -17,46 +17,37 @@
     margin: 0;
     padding: 0;
         box-sizing: border-box;
+
 }
 
-body {
+body{
     background-color: var(--cor1);
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 header {
     background-image: linear-gradient(var(--cor1), var(--cor5));
-    height: 170px;
-    padding-bottom: 60px;
+    height: 80px;
+    margin: 0;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px 20px 0px;
 
 }
 
 nav {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
+    font-weight: bold;
 }
 
-.cabecalho {
-    max-width: 180px;
-    text-align: center;
-    margin: auto;
+.cabecalho >h1 {
     color: white;
-}
-
-.cabecalho h1 {
     font-family: var(--fonte-google);
     font-weight: normal;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.486);
-    font-size: 2em;
-    padding-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.986);
+    font-size: 3em;
 
-}
-
-.foto-perfil {
-    width: 70%;
-    border-radius: 50%;
-    margin: auto;
-    padding: 0px;
-    display: block;
 }
 
 ul.topnav {
@@ -133,10 +124,10 @@ li.dropdown {
 
 main {
     background-color: var(--cor0);
-    max-width: 620px;
-    min-width: 400px;
-    margin: 46px auto 109px auto;
-    padding: 20px 15px;
+    max-width: 700px;
+    min-width: 380px;
+    margin: 100px auto  ;
+    padding: 20px 15px 110px ;
     border: 2px solid rgba(0, 0, 0, 0.295);
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
@@ -176,34 +167,7 @@ a.externos::after {
 footer {
     background-color: var(--cor4);
     color: var(--cor1);
-    padding: 7px;
+    padding: 13px;
     text-align: center;
     font-size: 0.8em;
-}
-
-/*ESTILO DESAFIO 001 */
-.image-d001 {
-    width: 80%;
-    display: block;
-    margin: auto;
-}
-
-table {
-    width: 100%;
-}
-
-table,
-th,
-td {
-    border: 2px solid black;
-    border-collapse: collapse;
-}
-
-td {
-    width: 50%;
-}
-
-table.center p {
-    line-height: 0.8em;
-    padding: 0 20px;
 }
