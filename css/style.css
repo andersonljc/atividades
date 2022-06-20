@@ -119,7 +119,7 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    columns: 3;
+    columns: 2;
 }
 
 main {
