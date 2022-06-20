@@ -67,7 +67,7 @@ body{
 }
 main{    
     max-width: 700px;
-    min-width: 380px;
+    min-width: 360px;
     background-color: rgba(235, 232, 232, 0.897);
     margin: 0px auto 45px auto;
     padding: 20px 15px 75px ;
