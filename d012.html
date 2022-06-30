@@ -9,13 +9,13 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
         }
 
         .d01 {
             border-collapse: collapse;
             background-color: rgb(236, 243, 139);
-            width: 400px;
-            margin-bottom: 50px;
+            width: 100%;
         }
 
         .mesclar-d01 {
@@ -25,8 +25,7 @@
         .d02 {
             border-collapse: collapse;
             background-color: rgb(247, 174, 91);
-            width: 400px;
-            margin-bottom: 50px;
+            width: 100%;
         }
 
         .mesclar-d02 {
@@ -34,75 +33,90 @@
         }
 
         td {
-            border: 1px solid black;
+            border: 1px solid rgb(0, 0, 0);
             padding: 10px;
             text-align: center;
         }
+        .imagem-desafio{
+            float: right;
+            width: 49%; 
+            padding: 2px;
+            border: 2px solid rgb(255, 0, 0);
+            border-radius: 10px;
+        }
+        img{
+            width: 100%;
+        }
+        .resolucao{
+            width: 49%;
+        }
+
     </style>
 </head>
 
 <body>
     <h1>Capítulo 21 Aula 09 - Desafios (parte 1)</h1>
+        <section class="imagem-desafio">
+            <h2>Desafios</h2>
+                <img src="imagens/desafio-tabela.PNG" alt="">
+        </section>
 
-    <table class="d01">
-        <caption>Desafio 01 </caption>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td rowspan="2" class="mesclar-d01">3</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-        </tr>
-        <tr>
-            <td colspan="3" class="mesclar-d01">8</td>
-            <td>9</td>
-        </tr>
-        <tr>
-            <td rowspan="2" class="mesclar-d01">10</td>
-            <td colspan="2" class="mesclar-d01">11</td>
-            <td>12</td>
-        </tr>
-
-        <tr>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
-        </tr>
-
-    </table>
-
-    <table class="d02">
-        <caption>Desafio 02 </caption>
-        <tr>
-            <td colspan="4" class="mesclar-d02">A</td>
-            <td rowspan="4" class="mesclar-d02">B</td>
-        </tr>
-        <tr>
-            <td rowspan="4" class="mesclar-d02">C</td>
-            <td>D</td>
-            <td>E</td>
-            <td>F</td>
-        </tr>
-        <tr>
-            <td>G</td>
-            <td>H</td>
-            <td>I</td>
-        </tr>
-        <tr>
-            <td>J</td>
-            <td>K</td>
-            <td>L</td>
-        </tr>
-
-        <tr>
-            <td colspan="4" class="mesclar-d02">M</td>
-        </tr>
-
-    </table>
+        <section class="resolucao">
+            <table class="d01">
+                <caption>Desafio 01 </caption>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td rowspan="2" class="mesclar-d01">3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="mesclar-d01">8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="mesclar-d01">10</td>
+                    <td colspan="2" class="mesclar-d01">11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                </tr>
+            </table>
+            <table class="d02">
+                <caption>Desafio 02 </caption>
+                <tr>
+                    <td colspan="4" class="mesclar-d02">A</td>
+                    <td rowspan="4" class="mesclar-d02">B</td>
+                </tr>
+                <tr>
+                    <td rowspan="4" class="mesclar-d02">C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>I</td>
+                </tr>
+                <tr>
+                    <td>J</td>
+                    <td>K</td>
+                    <td>L</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="mesclar-d02">M</td>
+                </tr>
+            </table>
+        </section>
 
 </body>
 
